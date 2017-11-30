@@ -1,6 +1,8 @@
 from time import sleep
 from EasyBot import EasyBot
 
+# Revision 0, uploaded to server
+
 # Impostazioni
 product = 'ETH-EUR'
 
@@ -8,7 +10,7 @@ product = 'ETH-EUR'
 # Sarà abbassato il 4 dic 2017 a 0.001, mentre attualmente è a 0.01, circa 3,7€ al prezzo attuale
 
 period_duration = 48 * 60 * 60  # Tempo minimo fra due transazioni, 1 giorno
-period_euro_limit =  4          # Massimi euro investiti nel periodo impostato
+period_euro_limit = 4           # Massimi euro investiti nel periodo impostato
 
 avg_days = 7                    # Su quanti giorni calcolare la media su cui basare gli acquisti
 avg_duration = 2 * 60 * 60      # Validità della media effettuata in precedenza
